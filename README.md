@@ -99,3 +99,4 @@ The main difference between the two versions of the code lies in the organizatio
 **Code Organization:**
 - The first version organizes the code by grouping functions related to Player 1 actions and functions related to Player 2 actions separately. Each group of functions is preceded by comments indicating its purpose.
 - The second version organizes the code by grouping functions
+  [Image1](images/img1.png)
