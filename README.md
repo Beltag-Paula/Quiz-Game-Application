@@ -2,7 +2,7 @@
 
 This project offers a step by step development of how a simple quiz game that is played on a terminal can be made into a GUI application that can be used as a simple game between two users.
 
-## main.py
+## [main.py](https://github.com/Beltag-Paula/Quiz-Game-Application/blob/main/main.py)
 
 ### Features
 This code defines a simple quiz game between two players: Player 1 (who can add questions) and Player 2 (who can answer them). The game involves saving and retrieving questions from a text file (which is created with the name of promptFile.txt if it doesn't exist) on the desktop. The code saves questions in a JSON format on a file called promptFile.txt on the desktop. Player 1 can input questions which are saved on that file, while Player 2 can answer questions from that file and see their score.
@@ -25,7 +25,7 @@ This code defines a simple quiz game between two players: Player 1 (who can add 
 2. We ask Player 1 if they want to add new questions to the file; if "yes", loop to add questions until "done" is entered. Each question is saved to the file and added into `self.question`.
 3. Only after Player 1 hits "done" then player's 2 quiz starts.
 
-## main2shuffleprompt.py
+## [main2shuffleprompt.py](https://github.com/Beltag-Paula/Quiz-Game-Application/blob/main/main2shuffleprompt.py)
 
 ### Features
 This code is an updated version of main.py, offering new additions such as:
@@ -54,7 +54,7 @@ This code is an updated version of main.py, offering new additions such as:
   - Exit: Quit the management menu.
   - Pass to Player 2: Player 2 starts answering the questions.
 
-## quizGameMain.py
+## [quizGameMain.py](https://github.com/Beltag-Paula/Quiz-Game-Application/blob/main/quizGameMain.py)
 
 ### Overview
 This version transforms the QuizGame into a graphical application using Tkinter, enhancing user interaction with graphical interfaces for various functionalities like viewing, adding, deleting prompts, and playing the quiz game. It introduces a window-based approach for both Player 1 and Player 2 functionalities.
@@ -91,7 +91,7 @@ This version transforms the QuizGame into a graphical application using Tkinter,
 ### Summary
 The third version of the QuizGame class significantly enhances user experience by providing a graphical interface for all interactions, including managing prompts and playing the quiz game. It leverages Tkinter for a windowed approach, making the application more user-friendly and visually appealing. Each feature from the earlier command-line version has been translated into corresponding GUI components for ease of use and better interactivity.
 
-## quizGame2.py
+## [quizGame2.py](https://github.com/Beltag-Paula/Quiz-Game-Application/blob/main/quizGame2.py)
 
 ### Differences with quizGameMain.py
 The main difference between the two versions of the code lies in the organization and structure, as well as some minor implementation details. Let's break down the key differences:
